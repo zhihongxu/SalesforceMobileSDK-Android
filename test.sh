@@ -1,6 +1,7 @@
 #!/bin/bash
 . android-settings.sh
 
+
 $TDDIUM_REPO_ROOT/start-emulator.sh
 
 cd libs/test/SmartStoreTest/
