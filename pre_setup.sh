@@ -1,5 +1,5 @@
 #!/bin/bash
-
+echo "IN PRESETUP"
 sudo apt-get update
 sudo apt-get install -y ia32-libs
 
