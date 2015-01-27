@@ -1,5 +1,6 @@
 env:
   - DEVICE_OS_VERSION=android-17
+  - ANDROID_SDK=$HOME/android-sdk-linux/
 before_script:
   - './pre_setup.sh'
   - './worker_setup.sh'
